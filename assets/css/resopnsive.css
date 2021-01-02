@@ -1,0 +1,196 @@
+/*
+-------------------------------------------
+--------- Welcome to Responsive css -------
+-------------------------------------------
+*/
+@media all and (max-width:1000px){
+/* Header */
+.logo {
+	width: 20%;
+}
+nav {
+	flex: 0 0 80%;
+}
+nav ul li {
+	padding-left:0px;
+}
+.owl-nav button.owl-next{
+    right:-7%;
+}
+/* contact */
+.input_box {
+    width: 70%;
+}
+.input_box input[type="submit"] {
+	width: 40%;
+}
+
+}
+
+@media all and (max-width:900px){
+	/*happy clients*/
+	.single_client {
+		flex-basis: 50%;
+	}
+}
+
+@media all and (max-width:800px){
+	/*Header*/
+	.header_top {
+		padding: 0 0 10px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		position: fixed;
+		background: linear-gradient(#180e65,#271563,#431b62,#311b64);
+		z-index: 99;
+		padding: 20px 20px;
+		animation:slownav 1s forwards;
+	}
+	nav ul li {
+		display: block;
+	}
+	.mobile_menu span {
+		display:block;
+	}
+	nav {
+		position: absolute;
+		top: 100%;
+		left:0;
+		background:#0f0337;
+		width: 100%;
+		padding: 0;
+		z-index: 1;
+		display: none;
+	}
+	nav ul {
+		text-align: center;
+		padding: 10px 0 50px;
+	}
+	nav ul li a {
+		display: inline-block;
+		padding:10px 20px;
+	}
+/*About*/
+.about_img {
+	flex-basis: 100%;
+	margin-right:0%;
+}
+.about_text {
+	flex-basis: 100%;
+}
+.about_btn {
+	text-align: center;
+}
+/*Service*/
+.single_service {
+	flex-basis:48%;
+}
+/*portfolio*/
+.portfolio_grid {
+	display:block;
+}
+.item1 {
+	height: auto;
+}
+.portfolio_single {
+	margin:15px 0;
+}
+/*Testimonial*/
+.owl-nav button.owl-prev{
+    left:-10%;
+}
+.owl-nav button.owl-next{
+    right:-9%;
+}
+
+}
+@media all and (min-width:801px){
+	nav{
+		display:initial!important;
+	}
+}
+/*medium device*/
+@media all and (max-width:600px){
+	.single_service {
+		flex-basis:100%;
+	}
+/*testimonial owl carusel*/
+.owl-nav button.owl-next{
+    right:-11%;
+}
+#testimonial {
+	margin:60px;
+}
+/*portfolio*/
+.portfolio_nav ul li {
+	margin-left: 5px;
+	font-size: 13px;
+	margin-bottom:10px;
+}
+/*contact*/
+.input_box {
+	width: 90%;
+}
+	/*footer*/
+	.footer_info {
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.footer_social {
+		flex-basis: 100%;
+	}
+	.footer_social ul {
+		text-align: center;
+		padding: 15px 0 0;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.single_client h1 {
+		font-size: 40px;
+	}
+
+}
+/*For Small Device */
+@media all and (max-width:480px){
+	/*Header*/
+	.slider_text h1 {
+		font-size: 33px;
+	}
+	.slider_text .typer_text {
+		font-size: 30px;
+	}
+	/*Happy clients*/
+	.single_client {
+		flex-basis: 100%;
+	}
+	/*testimonial owl carousel*/
+	#testimonial {
+		margin: 40px;
+	}
+	/*contact*/
+	.input_box input[type="text"], [type="email"] {
+		width: 100%;
+	}
+	.input_box input[type="submit"] {
+		width:60%;
+	}
+}
+
+/*Extra small device*/
+@media all and (max-width:380px){
+	/*Header*/
+	.slider_text h1 {
+		font-size:30px;
+	}
+	.slider_text .typer_text {
+		font-size: 25px;
+	}
+	.slider_btn .left_btn {
+		margin-bottom: 10px;
+	}
+	.owl-nav button.owl-next{
+		right:-14%;
+	}
+}
